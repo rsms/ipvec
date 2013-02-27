@@ -1,8 +1,8 @@
 # ipvec
 
-Educational immutable, persistent vector implementation in C, inspired by the [Clojure vector](http://clojure.org/data_structures#Data%20Structures-Vectors%20(IPersistentVector)) implementation.
+Educational immutable, persistent vector implementation in C, inspired by the [Clojure vector](http://clojure.org/data_structures#Data%20Structures-Vectors%20%28IPersistentVector%29) implementation.
 
-Have a look at `main.c` to get started. Run `make && ./ipvec` to build run the demo program.
+Have a look at [`main.c`](https://github.com/rsms/ipvec/blob/master/main.c) to get started. Run `make && ./ipvec` to build run the demo program.
 
 Note that this is educational and there's really no memory management. I leave this detail as an exercise for the reader (hint: count refernces or implement GC and `free()` Node structs when dead.)
 
